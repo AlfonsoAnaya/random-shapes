@@ -1,0 +1,13 @@
+.body {
+    margin: 0;
+}
+
+.shape {
+    color:#4d5052;
+    text-align: center;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 4rem 5rem;
+    background-color: #c2e0b4;
+    margin-bottom: 1em;
+  }
