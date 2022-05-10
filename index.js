@@ -1,4 +1,4 @@
-let numberOfShapes = 5
+let numberOfShapes = 8
 let shapesArray = []
 let container = document.getElementById("container")
 
@@ -9,7 +9,7 @@ for (let i=0; i < numberOfShapes; i++) {
 for (let i=0; i < shapesArray.length; i++) {
     const newDiv = document.createElement("div");
     newDiv.setAttribute('id', `shape${i+1}`);
-    const newContent = document.createTextNode(`Shape${i+1}`);
+    const newContent = document.createTextNode(i+1);
     newDiv.appendChild(newContent);
     container.appendChild(newDiv);
     newDiv.classList.add("shape");
